@@ -113,6 +113,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Added support for "EXT:" paths in LocalConfiguration [#193](https://github.com/Gernott/mask/pull/193)
 
+
 ### Changed
 - Fluid-Templates are now being generated all upperCamelCase, no more underscores, except for fallback[#186](https://github.com/Gernott/mask/pull/186)
 - Default paths in LocalConfiguration now point to EXT:mask_project/...
