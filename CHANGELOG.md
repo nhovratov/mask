@@ -13,6 +13,7 @@ Check out the [release article](https://docs.typo3.org/p/mask/mask/master/en-us/
 - Completey new Mask Backend based on VueJS
 - New responsive UI/UX
 - Updated documentation
+test
 
 ### Added
 - New Upgrade Guide / Tips and tricks
