@@ -2,11 +2,9 @@ dist: bionic
 
 language: php
 
-jobs:
-  include:
-    - install: composer install
-      before_script: chmod +x ./Build/Scripts/runTests.sh
-      script: ./Build/Scripts/runTests.sh -p $PHP
+install: composer install
+before_script: chmod +x ./Build/Scripts/runTests.sh
+script: ./Build/Scripts/runTests.sh -p $PHP
 
 env:
   - PHP=7.2
