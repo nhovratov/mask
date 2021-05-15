@@ -5,9 +5,8 @@ language: php
 php:
   - '7.2'
 
-sudo: true
-
 jobs:
   include:
     - install: composer install
+      before_script: chmod +x ./Build/Scripts/runTests.sh
       script: ./Build/Scripts/runTests.sh
