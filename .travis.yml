@@ -4,7 +4,7 @@ language: php
 
 php: 7.4
 
-install: composer install && composer req typo3/cms-core:"$TYPO3"
+install: composer req typo3/cms-core:"$TYPO3" && composer update
 before_script: chmod +x ./Build/Scripts/runTests.sh
 script: ./Build/Scripts/runTests.sh -p $PHP
 
