@@ -33,7 +33,8 @@
 	"config": {
 		"vendor-dir": ".Build/vendor",
 		"bin-dir": ".Build/bin",
-		"platform-check": false
+		"platform-check": false,
+		"lock": false
 	},
 	"require-dev": {
 		"typo3/testing-framework": "^6",
